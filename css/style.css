@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   padding: 30px 0;
-  height: 92px;
+  height: 120px;
   position: fixed;
   left: 0;
   top: 0;
@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-family: "Hindia", sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
   outline: none;
 }
 
@@ -635,13 +635,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .title a {
-  color: #ebb62a;
+  color:#ebb62a;
 }
 
 #features .description {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 #features .section-description {
@@ -656,6 +657,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #advanced-features .features-row {
   padding: 60px 0 30px 0;
+  background-color:#49a236; 
 }
 
 #advanced-features h2 {
@@ -669,17 +671,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   font-weight: 400;
   font-style: italic;
-  color: #999;
+  color: #fff;
 }
 
 #advanced-features p {
   line-height: 24px;
-  color: #777;
+  color: #fff;
   margin-bottom: 30px;
 }
 
 #advanced-features i {
-  color: #666666;
+  color: #fff;
   font-size: 64px;
   transition: 0.5s;
   float: left;

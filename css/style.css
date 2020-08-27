@@ -8,14 +8,14 @@
 # General
 --------------------------------------------------------------*/
 @font-face{
-  font-family: Hindia;
-  src: url(/home/pablo/Descargas/Avilon/lib/font-hindia/Hindia.otf);
+  font-family: 'Architects Daughter', cursive;
 }
+
 
 body {
   background: #49a236;
   color: #ebb62a;
-  font-family: "Hindia", sans-serif;
+  font-family: 'Architects Daughter', cursive;
   overflow-x: hidden;
 }
 
@@ -28,15 +28,17 @@ a:hover, a:active, a:focus {
   color: #49a236;
   outline: none;
   text-decoration: none;
+  font-family: 'Architects Daughter', cursive;
 }
 
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  font-family: 'Architects Daughter', cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Hindia", sans-serif;
+  font-family: 'Architects Daughter', cursive;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -50,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ebb62a;
   padding: 2px 20px 8px 20px;
   font-size: 16px;
+  font-family: 'Architects Daughter', cursive;
   border-radius: 4px 4px 0 0;
   right: 15px;
   bottom: 0;
@@ -92,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   display: inline-block;
-  font-family: "Hindia", sans-serif;
+  font-family: 'Architects Daughter', cursive;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -112,6 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #header #logo h1 {
     font-size: 28px;
+    font-family: 'Architects Daughter', cursive;
     margin-top: 0;
   }
   #header #logo img {
@@ -159,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro h2 {
   margin: 30px 0 10px 0;
   padding: 0 15px;
+  font-family: 'Architects Daughter', cursive;
   font-size: 48px;
   font-weight: 400;
   line-height: 56px;
@@ -167,12 +172,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #intro h2 {
+    font-family: 'Architects Daughter', cursive;
     font-size: 28px;
     line-height: 36px;
   }
 }
 
 #intro p {
+  font-family: 'Architects Daughter', cursive;
   color: #fff;
   margin-bottom: 20px;
   padding: 0 15px;
@@ -181,6 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #intro p {
+    font-family: 'Architects Daughter', cursive;
     font-size: 25px;
     line-height: 24px;
     margin-bottom: 20px;
@@ -188,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .btn-get-started {
-  font-family: "Hindia", sans-serif;
+  font-family: 'Architects Daughter', cursive;
   font-weight: 400;
   font-size: 30px;
   letter-spacing: 1px;
@@ -305,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "\f107";
   position: absolute;
   right: 15px;
-  font-family: FontAwesome;
+  font-family: Hindia, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -332,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: "Hindia", sans-serif;
+  font-family: 'Architects Daughter', cursive;
   font-weight: 400;
   font-size: 20px;
   outline: none;
@@ -358,6 +366,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #333;
   transition: 0.3s;
   display: block;
+  font-family: 'Architects Daughter', cursive;
   font-size: 13px;
   text-transform: none;
 }
@@ -379,6 +388,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px 20px 0 0;
   border: 0;
   background: none;
+  font-family: 'Architects Daughter', cursive;
   font-size: 24px;
   display: none;
   transition: all 0.4s;
@@ -422,6 +432,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul li a {
   color: #fff;
+  font-family: 'Architects Daughter', cursive;
   font-size: 16px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -487,6 +498,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Sections Header
 --------------------------------*/
 .section-header .section-title {
+  font-family: 'Architects Daughter', cursive;
   font-size: 32px;
   color: #ebb62a;
   text-align: center;
@@ -494,9 +506,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header .section-description {
+  font-family: 'Architects Daughter', cursive;
   text-align: center;
   padding-bottom: 40px;
-  color: #777;
+  color: #fff;
   font-style: italic;
 }
 
@@ -516,69 +529,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #eff5f5;
 }
 
-/* About Us Section
---------------------------------*/
-#about {
-  padding: 60px 0;
-  overflow: hidden;
-}
 
-#about .about-img {
-  height: 510px;
-  overflow: hidden;
-}
-
-#about .about-img img {
-  margin-left: -15px;
-  max-width: 100%;
-}
-
-@media (max-width: 768px) {
-  #about .about-img {
-    height: auto;
-  }
-  #about .about-img img {
-    margin-left: 0;
-    padding-bottom: 30px;
-  }
-}
-
-#about .content .h2 {
-  color: #333;
-  font-weight: 300;
-  font-size: 24px;
-}
-
-#about .content h3 {
-  color: #777;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  font-style: italic;
-}
-
-#about .content p {
-  line-height: 26px;
-}
-
-#about .content p:last-child {
-  margin-bottom: 0;
-}
-
-#about .content i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #49a236;
-}
-
-#about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-#about .content ul li {
-  padding-bottom: 10px;
-}
 
 /* Product Featuress Section
 --------------------------------*/
@@ -615,6 +566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .icon {
+  font-family: 'Architects Daughter', cursive;
   color: #49a236;
   font-size: 40px;
   transition: 0.5s;
@@ -629,6 +581,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .title {
+  font-family: 'Architects Daughter', cursive;
   font-weight: 300;
   margin-bottom: 15px;
   font-size: 22px;
@@ -639,6 +592,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .description {
+  font-family: 'Architects Daughter', cursive;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 10px;
@@ -661,12 +615,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features h2 {
+  font-family: 'Architects Daughter', cursive;
   font-size: 26px;
   font-weight: 700;
   color: #ebb62a;
 }
 
 #advanced-features h3 {
+  font-family: 'Architects Daughter', cursive;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -681,6 +637,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features i {
+  font-family: 'Architects Daughter', cursive;
   color: #fff;
   font-size: 64px;
   transition: 0.5s;
@@ -723,51 +680,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-/* Call To Action Section
---------------------------------*/
-#call-to-action {
-  overflow: hidden;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
-  background-size: cover;
-  padding: 80px 0;
-}
-
-#call-to-action .cta-title {
-  color: #ebb62a;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#call-to-action .cta-text {
-  color: #ebb62a;
-}
-
-@media (min-width: 769px) {
-  #call-to-action .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
-
-#call-to-action .cta-btn {
-  font-family: "Hindia", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 30px;
-  border-radius: 25px;
-  transition: background 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #49a236;
-  border: 2px solid #49a236;
-}
 
 /* More Features Section
 --------------------------------*/
@@ -790,6 +702,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #more-features .icon i {
   color: #666666;
+  font-family: 'Architects Daughter', cursive;
   font-size: 80px;
   transition: 0.5s;
   line-height: 0;
@@ -804,6 +717,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features h4 {
+  font-family: 'Architects Daughter', cursive;
   margin-left: 100px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -815,6 +729,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features p {
+  font-family: 'Architects Daughter', cursive;
   font-size: 14px;
   margin-left: 100px;
   margin-bottom: 0;
@@ -836,99 +751,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-/* Clients Section
---------------------------------*/
-#clients {
-  padding: 30px 0;
-  background: #fff;
-  overflow: hidden;
-}
-
-#clients img {
-  max-width: 100%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
-}
-
-#clients img:hover {
-  opacity: 1;
-}
-
-/* Pricing Section
---------------------------------*/
-#pricing {
-  padding: 60px 0 60px 0;
-  overflow: hidden;
-}
-
-#pricing .box {
-  padding: 40px;
-  margin-bottom: 30px;
-  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-  background: #fff;
-  text-align: center;
-}
-
-#pricing h3 {
-  font-weight: 400;
-  margin-bottom: 15px;
-  font-size: 28px;
-}
-
-#pricing h4 {
-  font-size: 46px;
-  color: #49a236;
-  font-weight: 300;
-}
-
-#pricing h4 sup {
-  font-size: 20px;
-  top: -20px;
-}
-
-#pricing h4 span {
-  color: #bababa;
-  font-size: 20px;
-}
-
-#pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #999;
-  text-align: left;
-  line-height: 20px;
-}
-
-#pricing ul li {
-  padding-bottom: 12px;
-}
-
-#pricing ul i {
-  color: #49a236;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-#pricing .get-started-btn {
-  background: #515e61;
-  display: inline-block;
-  padding: 6px 30px;
-  border-radius: 20px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Hindia", sans-serif;
-}
-
-#pricing .featured {
-  border: 2px solid #49a236;
-}
-
-#pricing .featured .get-started-btn {
-  background: linear-gradient(45deg, #49a236, #49a236);
-}
 
 /* Frequently Asked Questions Section
 --------------------------------*/
@@ -950,7 +772,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Hindia", sans-serif;
+  font-family: 'Architects Daughter', cursive;
   font-size: 22px;
   line-height: 1;
   font-weight: 300;
@@ -958,6 +780,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list i {
+  font-family: 'Architects Daughter', cursive;
   font-size: 24px;
   position: absolute;
   right: 0;
@@ -970,6 +793,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   #faq #faq-list a {
+    font-family: 'Architects Daughter', cursive;
     font-size: 18px;
   }
   #faq #faq-list i {
@@ -982,68 +806,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: #fff;
 }
 
 #faq #faq-list a.collapsed i::before {
   content: "\f2c7" !important;
 }
 
-/* Our Team Section
---------------------------------*/
-#team {
-  padding: 60px 0;
-  overflow: hidden;
-}
 
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#team .member .pic {
-  margin-bottom: 15px;
-  overflow: hidden;
-  height: 260px;
-}
-
-#team .member .pic img {
-  max-width: 100%;
-}
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-}
-
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  color: #b3b3b3;
-}
-
-#team .member .social a:hover {
-  color: #49a236;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
 
 /* Gallery Section
 --------------------------------*/
 #gallery {
-  background: #fff;
+  background: #49a236;
   padding: 60px 0 0 0;
   overflow: hidden;
 }
@@ -1102,7 +877,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: "Hindia", sans-serif;
+  font-family: 'Architects Daughter', cursive;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1112,8 +887,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Hindia", sans-serif;
-  color: #888;
+  font-family: 'Architects Daughter', cursive;
+  color: #fff;
 }
 
 #contact .social-links {
@@ -1142,7 +917,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info {
-  color: #333333;
+  color: #fff;
 }
 
 #contact .info i {
@@ -1153,6 +928,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info p {
+  font-family: 'Architects Daughter', cursive;
   padding: 0 0 10px 42px;
   line-height: 28px;
   font-size: 14px;
@@ -1215,17 +991,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
-  color: #333;
+  color: #fff;
   font-size: 14px;
 }
 
 #footer .credits {
   font-size: 13px;
-  color: #888;
+  color: #fff;
 }
 
 #footer .footer-links a {
-  color: #666;
+  color: #fff;
   padding-left: 15px;
 }
 
